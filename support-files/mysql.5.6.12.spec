@@ -244,7 +244,7 @@ Group:          Applications/Databases
 Version:        5.6.12
 Release:        %{release}%{?distro_releasetag:.%{distro_releasetag}}
 Distribution:   %{distro_description}
-License:        Copyright (c) 2000, 2013, %{mysql_vendor}. All rights reserved. Under %{license_type} license as shown in the Description field.
+License:        Copyright (c) 2000, 2014, %{mysql_vendor}. All rights reserved. Under %{license_type} license as shown in the Description field.
 Source:         http://www.mysql.com/Downloads/MySQL-5.6/%{src_dir}.tar.gz
 URL:            http://www.mysql.com/
 Packager:       MySQL Release Engineering <mysql-build@oss.oracle.com> 
