@@ -1,0 +1,7 @@
+If you get readline errors, you're going to need to remove the CMakeLists files and CMake generated files
+
+Up-to-date readline:
+# brew install readline
+# brew link --force readline
+
+Clang on OSX requires CMAKE_CXX_FLAGS to be set to ' -Wno-c++11-narrowing -std=c++11 -stdlib=libc++"
