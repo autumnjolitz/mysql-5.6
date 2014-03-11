@@ -12,5 +12,10 @@ CMake options:
 -Dedit_LIBRARY=`brew --prefix readline`/lib/libreadline.dylib
 -DCMAKE_CXX_FLAGS='-Wno-c++11-narrowing -std=c++11 -stdlib=libc++'
 
+My command line:
+
+# cmake -Dedit_INCLUDE_DIR=`brew --prefix readline`/include  -Dedit_LIBRARY=`brew --prefix readline`/lib/libreadline.dylib -DCMAKE_CXX_FLAGS='-Wno-c++11-narrowing -std=c++11 -stdlib=libc++ -I`brew --prefix readline`/include' .
+# make
+
 Be sure to:
 rm -rf CMakeCache.txt CMakeFiles/ VERSION.dep include/probes_mysql.d if it gets stuck on old conf data
