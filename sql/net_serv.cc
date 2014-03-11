@@ -537,6 +537,10 @@ net_write_command_nonblocking(NET *net, uchar command,
 {
   net_async_status status;
   ssize_t rc;
+  /* Definition of len for the MACRO below was missing.
+  Assume same as net_write_command */
+  size_t len=prefix_len+1+packet_len;
+
   DBUG_ENTER(__func__);
   DBUG_DUMP("net write prefix", prefix, prefix_len);
   DBUG_DUMP("net write pkt", packet, packet_len);

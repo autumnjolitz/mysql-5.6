@@ -16,6 +16,9 @@
 /*
 ** Common definition between mysql server & client
 */
+#ifdef __APPLE__
+   #include <sys/uio.h>
+#endif
 
 #ifndef _mysql_com_h
 #define _mysql_com_h

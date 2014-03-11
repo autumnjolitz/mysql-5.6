@@ -35,6 +35,7 @@
 #include <my_dir.h>
 #include <hash.h>
 #include <stdarg.h>
+  #include <string>
 #include <violite.h>
 #include "my_regex.h" /* Our own version of regex */
 #ifdef HAVE_SYS_WAIT_H

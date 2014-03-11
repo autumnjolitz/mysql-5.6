@@ -13,6 +13,7 @@
    along with this program; if not, write to the Free Software
    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA */
 
+#define USING_C11_DEFINES true
 #include <my_sys.h>
 #include <string>
 #include <mysql/plugin_validate_password.h>
